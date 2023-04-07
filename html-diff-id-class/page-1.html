@@ -30,6 +30,9 @@
         #footer {
             color: black;
             text-align: center;
+            clear: both;
+            padding-top: 50px;
+
         }
 
         article {
@@ -41,16 +44,40 @@
         .article-list {
             margin-left: 15px;
         }
+
+        aside {
+            width: 25%;
+            float: left;
+        }
+
+        .sidebar-list {
+            font-size: 40px;
+            margin-left: 0px;
+            padding-left: 35px;
+            list-style-type: none;
+            background-color: lightblue;
+        }
+
+        #content {
+            width: 75%;
+            float: right;
+        }
+
+        #logo {
+            margin-top: 0px;
+            padding: 0px;
+        }
     </style>
 </head>
 <body>
 <aside>
+    <img src="logo2-01.png" alt="logo" width="150px" id="logo">
     <ul class="sidebar-list">
         <li>Home</li>
         <li>Menu</li>
     </ul>
 </aside>
-
+<div id="content">
 <article id="list-menu">
     <h1 id="main-title" class="for-title">Learn difference between how to use attribute id and class</h1>
     <h2 id="sub-title" class="for-title">id is unique should be define once, class can be defined many times</h2>
@@ -96,7 +123,7 @@
         <li>Cendol ice</li>
     </ol>
 </article>
-
+</div>
 <footer id="footer">
     &copy; 2023 by erga
 </footer>
