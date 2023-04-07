@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The different id and class</title>
+    <style>
+        /* tag > class > id */
+        #main-title {
+            font-weight: bolder;
+            color: blueviolet;
+        }
+
+        .for-title {
+            color: grey;
+        }
+
+        body, h1, p, ul, ol, li {
+            padding: 0px 0px;
+            margin: 0px 0px;
+            color: #000;
+        }
+
+        #sub-title {
+            font-weight: lighter;
+            color: brown;
+        }
+
+        #footer {
+            color: black;
+            text-align: center;
+        }
+
+        article {
+            padding: 20px 20px;
+            background-color: #eee;
+            border-bottom: 1px dashed #a1a1a1;
+        }
+
+        .article-list {
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+<aside>
+    <ul class="sidebar-list">
+        <li>Home</li>
+        <li>Menu</li>
+    </ul>
+</aside>
+
+<article id="list-menu">
+    <h1 id="main-title" class="for-title">Learn difference between how to use attribute id and class</h1>
+    <h2 id="sub-title" class="for-title">id is unique should be define once, class can be defined many times</h2>
+    <!-- Unordered list -->
+    <p>
+        <h2>House rules:</h2>
+    </p>
+    <ul class="article-list">
+        <li>No pet</li>
+        <li>Take your laundry</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <p>
+        <h2>Menu:</h2>
+    </p>
+    <ol class="article-list">
+        <li>Mashed Potatoes</li>
+        <li>Rujak</li>
+        <li>Cendol ice</li>
+    </ol>
+</article>
+
+<article id="list-financial">
+    <h2 id="main-title" class="for-title">Learn difference between how to use attribute id and class</h2>
+    <h3 id="sub-title" class="for-title">id is unique should be define once, class can be defined many times</h3>
+    <!-- Unordered list -->
+    <p>
+        <h2>House rules:</h2>
+    </p>
+    <ul class="article-list">
+        <li>No pet</li>
+        <li>Take your laundry</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <p>
+        <h2>Menu:</h2>
+    </p>
+    <ol class="article-list">
+        <li>Mashed Potatoes</li>
+        <li>Rujak</li>
+        <li>Cendol ice</li>
+    </ol>
+</article>
+
+<footer id="footer">
+    &copy; 2023 by erga
+</footer>
+</body>
+</html>
