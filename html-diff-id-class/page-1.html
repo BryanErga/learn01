@@ -58,9 +58,29 @@
             background-color: lightblue;
         }
 
+
+
         #content {
             width: 75%;
             float: right;
+        }
+
+        .button {
+            width: 150px;
+            height: 50px;
+            background-color: rgb(255, 220, 159);
+            border: 0;
+            border-radius: 25px;
+            padding: 10px 20px 10px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+            transition: 0.2s;
+            color: white;
+        }
+
+        .button :hover {
+            background-color: darkorange;
         }
 
         #logo {
@@ -73,7 +93,7 @@
 <aside>
     <img src="logo2-01.png" alt="logo" width="150px" id="logo">
     <ul class="sidebar-list">
-        <li>Home</li>
+        <button class="button"><li>Home</li></button>
         <li>Menu</li>
     </ul>
 </aside>
